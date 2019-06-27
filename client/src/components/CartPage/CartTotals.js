@@ -1,5 +1,6 @@
 import React from "react";
 import { ProductConsumer } from "../../context";
+import { Link } from "react-router-dom";
 export default function CartTotals() {
   return (
     <div className="container">
@@ -15,6 +16,11 @@ export default function CartTotals() {
                 >
                   clear cart
                 </button>
+                <form name="f1" id="form1" method="post" action="http://localhost:8080/">
+                  
+                  <input type="hidden" id="TXN_AMOUNT" name="TXN_AMOUNT" value={value.cartTotal} />
+                  <button type="submit" className="btn btn-outline-danger text-capitalize mb-4">Submit</button>
+                  </form>
                 <h3>subtotal : Rs.{cartSubTotal}</h3>
                 <h3>total : Rs.{cartTotal}</h3>
               </div>
