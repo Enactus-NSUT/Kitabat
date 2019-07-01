@@ -36,7 +36,7 @@ export default function SingleProductPage() {
                     />
                   </div>
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
-                    <h5 className="text-title mb-4">model :{title} </h5>
+                    <h5 className="text-title mb-4">Product :{title} </h5>
                     <h5 className="text-capitalize text-muted mb-4">
                       company : {company}
                     </h5>
@@ -46,7 +46,13 @@ export default function SingleProductPage() {
                     <p className="text-capitalize text-title mt-3">
                       some info about product :
                     </p>
-                    <p>{description}</p>
+                    <p>{
+                      description.map(items =>{
+                        return(
+                          <p>{items}</p>
+                          )
+                      })
+                    }</p>
                     <button
                       type="button"
                       className="main-link"
