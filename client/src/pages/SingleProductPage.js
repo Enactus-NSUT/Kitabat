@@ -46,7 +46,13 @@ export default function SingleProductPage() {
                     <p className="text-capitalize text-title mt-3">
                       some info about product :
                     </p>
-                    <p>{description}</p>
+                    <p>{
+                      description.map(items =>{
+                        return(
+                          <p>{items}</p>
+                          )
+                      })
+                    }</p>
                     <button
                       type="button"
                       className="main-link"
