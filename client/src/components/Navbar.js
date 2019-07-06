@@ -12,7 +12,7 @@ export default function Navbar() {
           <NavWrapper>
             <div className="nav-center">
               <FaBars className="nav-icon" onClick={handleSidebar} />
-              <h1>KITABAT</h1>
+              <img src="img/kitabat.png" height="65px"/>
               <div className="nav-cart">
                 <FaCartPlus className="nav-icon" onClick={handleCart} />
                 <div className="cart-items">{cartItems}</div>

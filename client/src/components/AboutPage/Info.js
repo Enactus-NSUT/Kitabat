@@ -17,21 +17,25 @@ export default function Info() {
           <div className="col-10 mx-auto col-md-6 my-3">
             <Title title="about us" />
             <p className="text-lead text-muted my-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              illo obcaecati non asperiores repellendus alias, nostrum aliquid
-              ad eaque ratione!
+              Enactus is a global community of young academic, students and business leaders 
+              that use entrepreneurshipto solve real world problems.
             </p>
             <p className="text-lead text-muted my-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              illo obcaecati non asperiores repellendus alias, nostrum aliquid
-              ad eaque ratione!
+              Our Mission is to Engage this generation of entrepreneurial leaders to innovate, create and impact.
+            </p>
+            <p className="text-lead text-muted my-3">
+              Project Kitabat by Enactus NSUT is an initiative to bring us closer to the beautiful world of Old Delhi’s 
+              Urdu and Arabic Calligraphy. It is an effort in not just reviving Calligraphy as an artform, 
+              but also making it relevant for today.
             </p>
             <button
               className="main-link"
               type="button"
               style={{ marginTop: "2rem" }}
             >
+            <a href="http://enactusnsut.org/projects/kitabat/index.html" target="_blank" className="main-link">
               more info
+            </a>
             </button>
           </div>
         </div>
