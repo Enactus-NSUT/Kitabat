@@ -1,0 +1,34 @@
+.info{
+	background-color:black ;
+}
+
+p{
+	font-weight: bold;
+	color:white;
+	font-size:20px;
+}
+.main-link{
+  padding: 0.5rem 1rem;
+  background: #e6b800;
+  color: var(--mainWhite);
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  outline: 2px solid black;
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);
+}
+a{
+	color:white;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.main-link:hover {
+  background: var(--darkGrey);
+  text-decoration: none;
+  color: #e6b800;
+  outline-color: var(--darkGrey);
+}

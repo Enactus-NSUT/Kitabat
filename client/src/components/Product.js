@@ -77,7 +77,7 @@ const ProductWrapper = styled.div`
     font-size: 2.5rem;
     margin: 1rem;
     padding: 0.5rem;
-    color: var(--primaryColor);
+    color: #e6b800;
     background: var(--mainBlack);
     border-radius: 0.5rem;
   }

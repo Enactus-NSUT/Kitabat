@@ -33,13 +33,14 @@ export default function Sidebar() {
 
 const SideWrapper = styled.nav`
   position: fixed;
-  top: 90px;
+  top: 97px;
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--mainGrey);
+  background: #e6b800;
   z-index: 1;
-  border-right: 4px solid var(--primaryColor);
+  border-right: 4px solid black;
+  border-top: 2px solid black;
   transition: var(--mainTransition);
   transform: ${props => (props.show ? "translateX(0)" : "translateX(-100%)")};
   ul {
@@ -50,13 +51,13 @@ const SideWrapper = styled.nav`
     display: block;
     font-size: 1.5rem;
     text-transform: capitalize;
-    color: var(--mainBlack);
+    color: black;
     padding: 0.5rem 1.5rem;
     background: transparent;
     transition: var(--mainTransition);
   }
   .sidebar-link:hover {
-    background: var(--primaryColor);
+    background: black;
     color: var(--mainWhite);
     padding: 0.5rem 1.5rem 0.5rem 2.5rem;
     text-decoration: none;

@@ -26,12 +26,12 @@ body {
 }
 .main-link {
   padding: 0.5rem 1rem;
-  background: var(--primaryColor);
+  background: black;
   color: var(--mainWhite);
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  outline: 2px solid var(--primaryColor);
+  outline: 2px solid black;
   outline-offset: 4px;
   border: none;
   transition: var(--mainTransition);
@@ -39,7 +39,7 @@ body {
 .main-link:hover {
   background: var(--darkGrey);
   text-decoration: none;
-  color: var(--primaryColor);
+  color: #e6b800;
   outline-color: var(--darkGrey);
 }
 .cart-icon {

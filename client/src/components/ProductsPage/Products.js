@@ -1,4 +1,5 @@
 import React from "react";
+import "./Products.css";
 import { ProductConsumer } from "../../context";
 import Title from "../Title";
 import Product from "../Product";
@@ -9,8 +10,8 @@ export default function Products() {
       {value => {
         const { filteredProducts } = value;
         return (
-          <section className="py-5">
-            <div className="container">
+          <section className="page">
+            <div className="container py-5">
               {/* title */}
               <Title center title="our products" />
               {/* Product filter */}
@@ -18,7 +19,7 @@ export default function Products() {
               {/* total count */}
               <div className="row">
                 <div className="col-10 mx-auto">
-                  <h6 className="text-title">
+                  <h6 className="text">
                     total products : {filteredProducts.length}
                   </h6>
                 </div>

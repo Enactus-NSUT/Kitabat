@@ -31,8 +31,8 @@ const NavWrapper = styled.nav`
   top: 0;
   width: 100%;
   padding: 1rem 1.5rem;
-  background: var(--mainGrey);
-  border-bottom: 3px solid var(--primaryColor);
+  background: #e6b800;
+  border-bottom: 3px solid black;
   z-index: 1;
   .nav-center {
     display: flex;
@@ -49,7 +49,7 @@ const NavWrapper = styled.nav`
     position: relative;
   }
   .cart-items {
-    background: var(--primaryColor);
+    background: black;
     color: var(--mainWhite);
     font-size: 0.85rem;
     position: absolute;

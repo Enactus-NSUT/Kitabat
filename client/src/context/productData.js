@@ -19,8 +19,7 @@ export const items = [
       price: 850,
       company: "Kitabat",
       description:
-        "Arabic Calligraphy forms an integral part of this heritage.It was introduced in India around the 7th century by early Arabic traders.\
-        The core purpose of its existence is Spirituality and was initiated for preserving the scripts of the Holy Quran.The above artwork is made by one of our very own 'katibs', Mohd. Ghalib. It is an extract from the Surah-Sabr meaning. Be, then, patient. Surely, the good end is for the righteous.",
+        ["Arabic Calligraphy forms an integral part of this heritage.It was introduced in India around the 7th century by early Arabic traders. The core purpose of its existence is Spirituality and was initiated for preserving the scripts of the Holy Quran.The above artwork is made by one of our very own 'katibs', Mohd. Ghalib. It is an extract from the Surah-Sabr meaning. Be, then, patient. Surely, the good end is for the righteous."],
       featured: true,
       image: { fields: { file: { url: "img/kitabat_frame.jpg" } } },
       freeShipping: true

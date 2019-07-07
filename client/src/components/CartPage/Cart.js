@@ -1,13 +1,14 @@
 import React from "react";
+import "./Cart.css";
 import Title from "../Title";
 import CartColumns from "./CartColumns";
 import CartList from "./CartList";
 import CartTotals from "./CartTotals";
 export default function Cart() {
   return (
-    <section className="py-5">
+    <section className="page">
       {/* title */}
-      <div className="container">
+      <div className="container py-5">
         <Title title="your cart items" center />
       </div>
       {/* cart columns */}

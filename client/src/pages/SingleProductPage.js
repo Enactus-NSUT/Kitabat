@@ -1,4 +1,5 @@
 import React from "react";
+import "./SingleProductPage.css";
 import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import kitabat from "../images/kit.jpg";
@@ -24,8 +25,8 @@ export default function SingleProductPage() {
             image
           } = singleProduct;
           return (
-            <section className="py-5">
-              <div className="container">
+            <section className="page">
+              <div className="container py-5">
                 <div className="row">
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
                     <img
@@ -36,14 +37,14 @@ export default function SingleProductPage() {
                     />
                   </div>
                   <div className="col-10 mx-auto col-sm-8 col-md-6 my-3">
-                    <h5 className="text-title mb-4">Product :{title} </h5>
-                    <h5 className="text-capitalize text-muted mb-4">
+                    <h3 className="text-title mb-4">Product :{title} </h3>
+                    <h3 className="text-capitalize mb-4">
                       company : {company}
-                    </h5>
-                    <h5 className="text-main text-capitalize mb-4">
+                    </h3>
+                    <h5 className="text-capitalize mb-4">
                       price : Rs.{price}
                     </h5>
-                    <p className="text-capitalize text-title mt-3">
+                    <p className="text-capitalize title mt-3">
                       some info about product :
                     </p>
                     <p>{

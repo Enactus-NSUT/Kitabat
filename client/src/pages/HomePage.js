@@ -13,7 +13,7 @@ export default function HomePage() {
         </Link>*/}
       </Hero>
       <Info/>
-      <Featured />
+      {/*<Featured />*/}
     </div>
   );
 }

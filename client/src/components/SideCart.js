@@ -19,7 +19,7 @@ export default function SideCart() {
                       // src={item.image}
                       alt="cart item"
                     />
-                    <div className="mt-3">
+                    <div className="mt-3 des">
                       <h6 className="text-uppercase">{item.title}</h6>
                       <h6 className="text-title text-capitalize">
                         amount : {item.count}
@@ -33,7 +33,7 @@ export default function SideCart() {
               cart total : Rs.{cartTotal}
             </h4>
             <div className="text-center my-5">
-              <Link to="/cart" className="main-link">
+              <Link to="/cart" className="link">
                 cart page
               </Link>
             </div>
@@ -46,14 +46,15 @@ export default function SideCart() {
 
 const CartWrapper = styled.div`
   position: fixed;
-  top: 90px;
+  top: 97px;
   right: 0;
   width: 100%;
   height: 100%;
-  background: var(--mainGrey);
+  background: #e6b800;
   z-index: 1;
   transform: ${props => (props.show ? "translateX(0)" : "translateX(100%)")};
-  border-left: 4px solid var(--primaryColor);
+  border-left: 4px solid black;
+  border-top: 2px solid black;
   transition: var(--mainTransition);
   @media (min-width: 576px) {
     width: 20rem;
@@ -66,4 +67,28 @@ const CartWrapper = styled.div`
   .cart-item {
     list-style-type: none;
   }
+  h4{
+    color:black;
+  }
+  .link {
+  padding: 0.5rem 1rem;
+  background: black;
+  color: var(--mainWhite);
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  outline: 2px solid black;
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);
+}
+.link:hover {
+  background: var(--darkGrey);
+  text-decoration: none;
+  color: #e6b800;
+  outline-color: var(--darkGrey);
+}
+h6{
+  color:white;
+}
 `;

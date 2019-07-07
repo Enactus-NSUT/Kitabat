@@ -16,7 +16,10 @@ const TitleWrapper = styled.div`
   .title-underline {
     height: 0.25rem;
     width: 7rem;
-    background: var(--primaryColor);
+    background: #e0e0eb;
     margin: ${props => (props.center ? "0 auto" : "0")};
+  }
+  .text-title{
+    color:#e6b800;
   }
 `;

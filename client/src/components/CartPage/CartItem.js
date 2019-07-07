@@ -1,4 +1,5 @@
 import React from "react";
+import "./Cart.css";
 import {
   FaTrash,
   FaChevronCircleUp,
@@ -20,13 +21,13 @@ export default function CartItem({
       </div>
       {/*end of image */}
       {/* title */}
-      <div className="col-10 mx-auto col-lg-2 pb-2">
+      <div className="col-10 mx-auto col-lg-2 pb-2 item">
         <span className="d-lg-none">product : </span>
         {title}
       </div>
       {/*end of title */}
       {/* price */}
-      <div className="col-10 mx-auto col-lg-2 pb-2">
+      <div className="col-10 mx-auto col-lg-2 pb-2 item">
         <span className="d-lg-none">price : Rs.</span>
         {price}
       </div>
@@ -39,7 +40,7 @@ export default function CartItem({
               onClick={() => decrement(id)}
               className="cart-icon text-primary"
             />
-            <span className="text-title text-muted mx-3">{count}</span>
+            <span className="text-title item mx-3">{count}</span>
             <FaChevronCircleUp
               onClick={() => increment(id)}
               className="cart-icon text-primary"
@@ -58,7 +59,7 @@ export default function CartItem({
       {/*end of remove */}
       {/* item total */}
       <div className="col-10 mx-auto col-lg-2">
-        <strong className="text-muted">item total : Rs.{total}</strong>
+        <strong className="item">item total : Rs.{total}</strong>
       </div>
       {/* end item total */}
     </div>
