@@ -1,7 +1,7 @@
 import React from "react";
 import "./info.css";
 import Title from "../Title";
-import aboutBcg from "../../images/aboutBcg.jpeg";
+import aboutBcg from "../../images/enactus.png";
 export default function Info() {
   return (
     <section className="info">

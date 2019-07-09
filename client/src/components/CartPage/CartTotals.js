@@ -16,7 +16,7 @@ export default function CartTotals() {
                 >
                   clear cart
                 </button>
-                <form name="f1" id="form1" method="post" action="http://localhost:8080/">
+                <form name="f1" id="form1" method="post" action="https://lit-ridge-76018.herokuapp.com/">
                   
                   <input type="hidden" id="TXN_AMOUNT" name="TXN_AMOUNT" value={value.cartTotal} />
                   <button type="submit" className="btn btn-outline-danger text-capitalize mb-4">Submit</button>
