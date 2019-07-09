@@ -1,9 +1,11 @@
 import React from "react";
 import "./info.css";
+import Title from "../Title";
 export default function Info() {
   return (
-<div>
-  	<section className="home">
+  <div>
+    <div className="home">
+  	<section >
       <div className="container py-5">
         <div className="row">
         	<div className="my-3">
@@ -21,13 +23,18 @@ export default function Info() {
         </div>
       </div>
     </section>
-    <section className="media">
-      <div className="container py-5">
+    </div>
+    <div className="media">
+    <section className="container">
+      <div className=" py-5">
+        <div className="row">
+        <div className="my-3">
+          <p className="para text-center">With the project having completed more than 10 months, here is an analysis of the project, and the model we’ve taken up. #RoadToSustainability</p>
+        </div>
+        </div>
         <div className="row">
         	<div className="my-3 mx-auto">
-        		<iframe width="900" height="506" 
-        		src="https://www.youtube.com/embed/lqZFedQXOjk" 
-        		frameborder="0" 
+        		<iframe className="youtube" height="506" src="https://www.youtube.com/embed/lqZFedQXOjk" frameborder="0" 
         		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         		allowfullscreen>
         		</iframe>
@@ -35,8 +42,11 @@ export default function Info() {
         </div>
       </div>
     </section>
-    	<section className="fb">
+    </div>
+    <div className="fb">
+    	<section>
       <div className="container py-5">
+        <h2 className="text-center mx-auto heading">Social Media Activity</h2>
         <div className="row">
         	<div className="my-4 mx-auto">
         	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkitabat.enactusnsut&tabs=timeline&width=400&height=585&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=270130390373305" 
@@ -47,6 +57,7 @@ export default function Info() {
         </div>
       </div>
     </section>
+    </div>
 </div>
 );
 }

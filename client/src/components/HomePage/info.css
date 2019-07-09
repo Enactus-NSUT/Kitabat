@@ -1,3 +1,7 @@
+
+/*.cover{
+	background-image: url('../../images/cover.jpg');
+}*/
 .text{
 	color:#fff;
 }
@@ -13,4 +17,18 @@
 
 .fb{
 	background-color:#e0e0eb;
+}
+.para{
+	font-size:30px ;
+	line-height:150%;
+}
+
+.youtube{
+	width:70vw;
+}
+
+.heading{
+	color:black;
+	font-weight:bold;
+	font-size:3.5rem;
 }
