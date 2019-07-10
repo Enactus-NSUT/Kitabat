@@ -2,7 +2,7 @@ export const items = [
   {
     "sys": { id: 0},
     "fields": {
-      "title": "Urdu Calligraphy done an a T shirt",
+      "title": "Urdu Calligraphy done on a T-shirt",
       "price": 350,
       "company": "Kitabat",
       "description":
